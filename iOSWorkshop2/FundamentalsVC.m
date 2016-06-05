@@ -9,6 +9,7 @@
 #import "FundamentalsVC.h"
 #import "PageControlVC.h"
 #import "QBarCodeReaderVC.h"
+#import "QWebContentVC.h"
 
 const NSString *openCamera        = @"openCamera";
 const NSString *openWebView       = @"openWebView";
@@ -108,6 +109,12 @@ const NSString *openBarCodeReader = @"openBarCodeReader";
 
 - (void)openBarCodeReader {
     QBarCodeReaderVC *vc = [[QBarCodeReaderVC alloc] initWithNibName:@"QBarCodeReaderVC" bundle:nil];
+    [self.navigationController pushViewController:vc animated:YES];
+}
+
+- (void)openWebView {
+    UIStoryboard *sb = [UIStoryboard storyboardWithName:@"Fundamentals" bundle:nil];
+    QWebContentVC *vc = [sb instantiateViewControllerWithIdentifier:@"webContentVC"];
     [self.navigationController pushViewController:vc animated:YES];
 }
 

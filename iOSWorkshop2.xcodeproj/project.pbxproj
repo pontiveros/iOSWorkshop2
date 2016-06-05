@@ -10,12 +10,15 @@
 		113062152F0BDD01FE727FA7 /* libPods-iOSWorkshop2UITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 366881631C314CEF1768D77F /* libPods-iOSWorkshop2UITests.a */; };
 		20398542AE4C8DCF90D5395A /* libPods-iOSWorkshop2Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C7A7B01CA7861316779BE32 /* libPods-iOSWorkshop2Tests.a */; };
 		29C777AB9AE1BD7D4993F4C7 /* libPods-iOSWorkshop2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF36B51BEB49D52CD14E0286 /* libPods-iOSWorkshop2.a */; };
+		DA9922F51D021DD8005201C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA9922F41D021DD8005201C0 /* Assets.xcassets */; };
+		DA9922F71D022529005201C0 /* Fundamentals.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA9922F61D022529005201C0 /* Fundamentals.storyboard */; };
+		DA9922FA1D022A7B005201C0 /* QWebContentVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9922F91D022A7B005201C0 /* QWebContentVC.m */; };
+		DA9922FD1D022C1E005201C0 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA9922FC1D022C1E005201C0 /* WebKit.framework */; };
 		DAB1E7F31CFC9699004A4F69 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB1E7F21CFC9699004A4F69 /* main.m */; };
 		DAB1E7F61CFC9699004A4F69 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB1E7F51CFC9699004A4F69 /* AppDelegate.m */; };
 		DAB1E7F91CFC9699004A4F69 /* FundamentalsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB1E7F81CFC9699004A4F69 /* FundamentalsVC.m */; };
 		DAB1E7FC1CFC9699004A4F69 /* AdvancedVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB1E7FB1CFC9699004A4F69 /* AdvancedVC.m */; };
 		DAB1E7FF1CFC9699004A4F69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAB1E7FD1CFC9699004A4F69 /* Main.storyboard */; };
-		DAB1E8011CFC9699004A4F69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAB1E8001CFC9699004A4F69 /* Assets.xcassets */; };
 		DAB1E8041CFC9699004A4F69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAB1E8021CFC9699004A4F69 /* LaunchScreen.storyboard */; };
 		DAB1E80F1CFC9699004A4F69 /* iOSWorkshop2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB1E80E1CFC9699004A4F69 /* iOSWorkshop2Tests.m */; };
 		DAB1E81A1CFC9699004A4F69 /* iOSWorkshop2UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB1E8191CFC9699004A4F69 /* iOSWorkshop2UITests.m */; };
@@ -52,6 +55,11 @@
 		955406576B28594D8F5E8F48 /* Pods-iOSWorkshop2Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSWorkshop2Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSWorkshop2Tests/Pods-iOSWorkshop2Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B9C05DB07B47A5EC5D6AB0EF /* Pods-iOSWorkshop2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSWorkshop2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSWorkshop2/Pods-iOSWorkshop2.debug.xcconfig"; sourceTree = "<group>"; };
 		BF36B51BEB49D52CD14E0286 /* libPods-iOSWorkshop2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOSWorkshop2.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA9922F41D021DD8005201C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA9922F61D022529005201C0 /* Fundamentals.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Fundamentals.storyboard; sourceTree = "<group>"; };
+		DA9922F81D022A7B005201C0 /* QWebContentVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QWebContentVC.h; sourceTree = "<group>"; };
+		DA9922F91D022A7B005201C0 /* QWebContentVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QWebContentVC.m; sourceTree = "<group>"; };
+		DA9922FC1D022C1E005201C0 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		DAB1E7EE1CFC9698004A4F69 /* iOSWorkshop2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSWorkshop2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAB1E7F21CFC9699004A4F69 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DAB1E7F41CFC9699004A4F69 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -61,7 +69,6 @@
 		DAB1E7FA1CFC9699004A4F69 /* AdvancedVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdvancedVC.h; sourceTree = "<group>"; };
 		DAB1E7FB1CFC9699004A4F69 /* AdvancedVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdvancedVC.m; sourceTree = "<group>"; };
 		DAB1E7FE1CFC9699004A4F69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DAB1E8001CFC9699004A4F69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DAB1E8031CFC9699004A4F69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DAB1E8051CFC9699004A4F69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DAB1E80A1CFC9699004A4F69 /* iOSWorkshop2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSWorkshop2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -86,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA9922FD1D022C1E005201C0 /* WebKit.framework in Frameworks */,
 				29C777AB9AE1BD7D4993F4C7 /* libPods-iOSWorkshop2.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -122,6 +130,18 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		DA9922FB1D022AAC005201C0 /* Fundamentals */ = {
+			isa = PBXGroup;
+			children = (
+				DAC8FE141D00326300B6BE91 /* QBarCodeReaderVC.h */,
+				DAC8FE151D00326300B6BE91 /* QBarCodeReaderVC.m */,
+				DAC8FE171D0032A000B6BE91 /* QBarCodeReaderVC.xib */,
+				DA9922F81D022A7B005201C0 /* QWebContentVC.h */,
+				DA9922F91D022A7B005201C0 /* QWebContentVC.m */,
+			);
+			name = Fundamentals;
+			sourceTree = "<group>";
+		};
 		DAB1E7E51CFC9698004A4F69 = {
 			isa = PBXGroup;
 			children = (
@@ -147,6 +167,7 @@
 		DAB1E7F01CFC9699004A4F69 /* iOSWorkshop2 */ = {
 			isa = PBXGroup;
 			children = (
+				DA9922FB1D022AAC005201C0 /* Fundamentals */,
 				DAB1E82F1CFDD358004A4F69 /* CustomControls */,
 				DAB1E7F41CFC9699004A4F69 /* AppDelegate.h */,
 				DAB1E7F51CFC9699004A4F69 /* AppDelegate.m */,
@@ -155,16 +176,14 @@
 				DAB1E7FA1CFC9699004A4F69 /* AdvancedVC.h */,
 				DAB1E7FB1CFC9699004A4F69 /* AdvancedVC.m */,
 				DAB1E7FD1CFC9699004A4F69 /* Main.storyboard */,
-				DAB1E8001CFC9699004A4F69 /* Assets.xcassets */,
 				DAB1E8021CFC9699004A4F69 /* LaunchScreen.storyboard */,
-				DAB1E8051CFC9699004A4F69 /* Info.plist */,
-				DAB1E7F11CFC9699004A4F69 /* Supporting Files */,
+				DA9922F61D022529005201C0 /* Fundamentals.storyboard */,
 				DAB1E8271CFCAF8F004A4F69 /* PageControlVC.h */,
 				DAB1E8281CFCAF8F004A4F69 /* PageControlVC.m */,
 				DAB1E8291CFCAF8F004A4F69 /* PageControlVC.xib */,
-				DAC8FE141D00326300B6BE91 /* QBarCodeReaderVC.h */,
-				DAC8FE151D00326300B6BE91 /* QBarCodeReaderVC.m */,
-				DAC8FE171D0032A000B6BE91 /* QBarCodeReaderVC.xib */,
+				DAB1E8051CFC9699004A4F69 /* Info.plist */,
+				DA9922F41D021DD8005201C0 /* Assets.xcassets */,
+				DAB1E7F11CFC9699004A4F69 /* Supporting Files */,
 			);
 			path = iOSWorkshop2;
 			sourceTree = "<group>";
@@ -207,6 +226,7 @@
 		F5DF8393AA8D4F763F613BAD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DA9922FC1D022C1E005201C0 /* WebKit.framework */,
 				BF36B51BEB49D52CD14E0286 /* libPods-iOSWorkshop2.a */,
 				5C7A7B01CA7861316779BE32 /* libPods-iOSWorkshop2Tests.a */,
 				366881631C314CEF1768D77F /* libPods-iOSWorkshop2UITests.a */,
@@ -328,9 +348,10 @@
 			files = (
 				DAB1E8041CFC9699004A4F69 /* LaunchScreen.storyboard in Resources */,
 				DAC8FE181D0032A000B6BE91 /* QBarCodeReaderVC.xib in Resources */,
-				DAB1E8011CFC9699004A4F69 /* Assets.xcassets in Resources */,
+				DA9922F71D022529005201C0 /* Fundamentals.storyboard in Resources */,
 				DAB1E82B1CFCAF8F004A4F69 /* PageControlVC.xib in Resources */,
 				DAB1E7FF1CFC9699004A4F69 /* Main.storyboard in Resources */,
+				DA9922F51D021DD8005201C0 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -483,6 +504,7 @@
 				DAB1E7F91CFC9699004A4F69 /* FundamentalsVC.m in Sources */,
 				DAB1E7F31CFC9699004A4F69 /* main.m in Sources */,
 				DAC8FE161D00326300B6BE91 /* QBarCodeReaderVC.m in Sources */,
+				DA9922FA1D022A7B005201C0 /* QWebContentVC.m in Sources */,
 				DAB1E82A1CFCAF8F004A4F69 /* PageControlVC.m in Sources */,
 				DAB1E82E1CFDD1AE004A4F69 /* UICustomCoCellView.m in Sources */,
 			);
